@@ -67,6 +67,10 @@ body {
   margin-left: 80px;
 }
 
+::placeholder {
+  color: #333;
+}
+
 .form__input, textarea {
   background: rgba(255,255,255,0.4);
   border: 1px solid rgb(255, 255, 255);

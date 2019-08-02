@@ -19,16 +19,16 @@
 
     <form class="form" action="https://dev.cotenfrontend.pl" method="POST">
       <p class="form__field">
-        <label class="form__label--firstname" for="firstname">First name:</label>
-        <input class="form__input--firstname" type="text" name="myFirstName" id="firstname" placeholder="please enter your name" pattern="[a-zA-Z0-9]+" maxlength="30" required> (max 30 characters a-z and A-Z)
+        <label class="form__label" for="firstname">First name:</label>
+        <input class="form__input" type="text" name="myFirstName" id="firstname" placeholder="please enter your name" pattern="[a-zA-Z0-9]+" maxlength="30" required> (max 30 characters a-z and A-Z)
       </p>
       <p class="form__field">
-        <label class="form__label--lastname" for="lastname">Last name:</label>
-        <input class="form__input--lastname" type="text" name="myLastname" id="lastname" pattern="[a-zA-Z0-9]+" maxlength="30" required> (max 30 characters a-z and A-Z)
+        <label class="form__label" for="lastname">Last name:</label>
+        <input class="form__input" type="text" name="myLastname" id="lastname" pattern="[a-zA-Z0-9]+" maxlength="30" required> (max 30 characters a-z and A-Z)
       </p>
       <p class="form__field">
-        <label class="form__label--date" for="date">Date of birth:</label>
-        <input class="form__input--date" type="date" name="myDate" id="date" pattern="(?:(?:0[1-9]|1[0-2])[\/\\-. ]?(?:0[1-9]|[12][0-9])|(?:(?:0[13-9]|1[0-2])[\/\\-. ]?30)|(?:(?:0[13578]|1[02])[\/\\-. ]?31))[\/\\-. ]?(?:19|20)[0-9]{2}">
+        <label class="form__label" for="date">Date of birth:</label>
+        <input class="form__input" type="date" name="myDate" id="date" pattern="(?:(?:0[1-9]|1[0-2])[\/\\-. ]?(?:0[1-9]|[12][0-9])|(?:(?:0[13-9]|1[0-2])[\/\\-. ]?30)|(?:(?:0[13578]|1[02])[\/\\-. ]?31))[\/\\-. ]?(?:19|20)[0-9]{2}">
       </p>
       <p class="form__field">
         <label class="form__label" for="id_email">Email id:</label>
@@ -39,14 +39,14 @@
         <input class="form__input" type="number" name="myMobile_phone" id="mobile_phone" maxlength="10" pattern="\d{3}[\-]\d{3}[\-]\d{4}"> (10 digit number)
       </p>
       <p class="form__field">
-        <label class="form__label--gender" for="gender">Gender:</label>
+        <label class="form__label" for="gender">Gender:</label>
         <label class="form__label" for="male">Male</label>
         <input class="form__input" type="radio" name="radio" id="male" required>
         <label class="form__label" for="lastname">Female</label>
         <input class="form__input" type="radio" name="radio" id="female" required>
       </p>
       <p>
-        <label for="street_address">Street address:</label><br>
+        <label class="form__label" for="street_address">Street address:</label><br>
         <textarea name="street_address" id="street_address" cols="30" rows="5" required></textarea>
       </p>
       <p class="form__field">

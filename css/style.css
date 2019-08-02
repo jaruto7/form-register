@@ -13,16 +13,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: #fff;
   display: flex;
+  font-size: 18px;
   justify-content: center;
   min-height: 100vh;
 }
 
-.register {
-  
+.form__label, .header__title {
+  text-transform: uppercase;
 }
 
-.form {
+.section {
   max-width: 600px;
   flex-basis: 100%;
 }

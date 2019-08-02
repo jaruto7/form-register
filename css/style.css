@@ -9,7 +9,7 @@ html {
 
 body {
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1504350274292-13f3a028f36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1339&q=80');
+  background-image: url('https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,7 +78,7 @@ body {
 }
 
 .section {
-  background-color: rgba(34, 34, 34, 0.4);
+  background-color: rgba(34, 34, 34, 0.6);
   display: grid;
   flex-basis: 100%;
   padding: 16px;

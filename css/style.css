@@ -20,6 +20,10 @@ body {
   min-height: 100vh;
 }
 
+.header__title {
+  margin-left: 7px;
+}
+
 .form__label, .header__title {
   text-transform: uppercase;
   font-family: 'Aldrich', sans-serif;
@@ -89,4 +93,31 @@ body {
   grid-template-columns: 1fr;
   max-width: 600px;
 }
+
+[class^="input__"]  {
+  background-color: inherit;
+  background-position: 100% 0;
+  background-size: 300%;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  min-width: 160px;
+  padding: 15px 30px;
+  transition: .5s;
+}
+
+[class^="input__"]:hover {
+  background-position: 0 100%;
+  color: white;
+}
+
+.input__send {
+  border: 2px solid rgba(255,255,255,0.4);;
+  background-image: linear-gradient(135deg, rgba(255,255,255,0.4) 50%, transparent 50%);
+  color: rgba(255,255,255,0.4);
+}
+
 
